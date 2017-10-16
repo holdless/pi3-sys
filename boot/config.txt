@@ -1,5 +1,5 @@
 # For more options and information see
-# http://www.raspberrypi.org/documentation/configuration/config-txt.md
+# http://rpf.io/configtxtreadme
 # Some settings may impact device functionality. See link above for details
 
 # uncomment if you get no picture on HDMI for a default "safe" mode
@@ -55,5 +55,5 @@ dtparam=i2c_arm=on
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=on
 start_x=1
-gpu_mem=64
+gpu_mem=128
 enable_uart=1
